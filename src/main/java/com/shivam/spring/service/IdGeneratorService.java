@@ -19,7 +19,7 @@ public class IdGeneratorService {
 	IdGeneratorDao idGeneratorDao;
 
 	
-	public int increaseNumberForID() {
+	public int increaseNumberForID() throws Exception {
 		
 		int result = 0;
 		try {
